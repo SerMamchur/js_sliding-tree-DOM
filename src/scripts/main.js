@@ -1,6 +1,6 @@
 'use strict';
 
-const li = document.querySelectorAll('.tree > li > ul > li');
+const li = document.querySelectorAll('.tree li');
 
 li.forEach((el) => {
   if (el.textContent) {
