@@ -25,10 +25,6 @@ addEventListener('click', (e) => {
   const ul = clickOn.parentNode.querySelector('ul');
 
   if (ul) {
-    if (ul.style.display === 'block') {
-      ul.style.display = 'none';
-    } else {
-      ul.style.display = 'block';
-    }
+    ul.hidden = !ul.hidden;
   }
 });
